@@ -1,0 +1,57 @@
+   
+
+   1.The difference between HTTP 1.1 and HTTP 2:
+
+   HTTP stands for hyper text transfer protocol and it is used in client-server communication.By Using the HTTP we can send request to the 
+   server and gets response from the server to the user.There was several stages of development of HTTP that was HTTP 1.1 was created in 1997
+   and the other new one is created in 2015.
+
+   
+   HTTP 1.1: we can use request to the server through html page and get a response through html page.before sending the request and response 
+   there is a connection TCP(transmission control protocol) established between the client and the server.There is a presistence connection 
+   which means the several request and response are merged in a single connection.These are the drawbacks that leads to creation of HTTP 2
+   the first problem was the all the request and response are send in a plain text form and the second problem was Head of line Blocking in 
+   which the TCP connection is blocked all the request untill the response is recevied from the server.It uses request inlining for use getting 
+   multiple pages.It compress data by itself.
+
+   HTTP 2: It was developed over the SPDY protocol which is created for replace the HTTP.HTTP2 works on the binary framing layer insted of 
+   textual that converts all the message in binary format.It works on fully multiplexed that is one TCP connection is used for multiple  
+   request.It uses PUSH frame by server to collect all multiple pages.HTTP2 use the HPACK to compress the data.It has higher loading speed 
+   while comparing to HTTP1.1
+
+
+
+   
+  2.Objects and its internal representation in Javascript:
+
+    Objects in javascript are the most important datatype and it forms the building blocks of javascript.The Objects are quite different 
+ from the javascript primitive datatypes like number,boolean,string,null,undefined,symbol.An Object is an reference datatypes and variables
+ that are assigned a reference value are given a reference or pointer to that value.Objects in Javascript may be defined as the unordered 
+ collection of related datatypes,of primitive or reference datatype, in the form of key:value pairs.These keys can be variable or function 
+ and are called properties and methods respectively in the context of the object.An object can be created with figure brackets {...} with 
+ an optional list of properties.
+ A property is a Key:value ,pair where a key is a string also called as a property value and the value can be anything.javascript object 
+ property can be a string or numbers.In case the property names are numbers it must be accessed with the bracket notation.
+  
+ syntax of object in javascript:
+           
+                           new object(value)
+                           object(value)
+                           let object_name = {
+                           key_name:value,
+                           .......    
+
+                                 }        
+                          
+
+ An object can be with or without new both can create a new object.The javascript object is a collection of named values having state and
+ behaviour.
+
+
+
+
+
+
+
+
+
